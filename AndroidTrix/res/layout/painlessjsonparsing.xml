@@ -6,19 +6,21 @@
 		android:scrollbars="vertical"
 >
 <LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:orientation="vertical"
   android:layout_width="fill_parent"
   android:layout_height="wrap_content"
+  android:orientation="vertical"
 >
-  <TextView android:id="@+id/demo"
+  <EditText android:id="@+id/urlfield"
   		android:layout_width="fill_parent"
   		android:layout_height="wrap_content"
-  		android:text="Mary never went to school. Mary was way too cool."
-  		android:paddingBottom="25dp"
-  		android:textSize="16sp"
   />
-  <TextView android:id="@+id/tvindonclickcode"
+  <Button android:id="@+id/getjson"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:text="Get JSON Data"
+  		android:paddingBottom="25dp"
+  />
+  <TextView android:id="@+id/jsonparsingcode"
   		android:layout_width="wrap_content"
   		android:layout_height="wrap_content"
   		android:textColor="#00CDCD"

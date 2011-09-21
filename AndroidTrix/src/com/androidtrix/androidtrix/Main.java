@@ -59,9 +59,10 @@ public class Main extends Activity {
 					Intent intent = new Intent(Main.this, TextViewIndexOnClick.class);
 					startActivity(intent);
 				} else if (selectedMenuItem.equals("Natural TextView Wrapping of Other Views")){
-					Toast.makeText(v.getContext(), "got item 2", 10000).show();
+					Toast.makeText(v.getContext(), "Coming soon!", 5000).show();
 				} else if (selectedMenuItem.equals("Painless JSON Parsing")){
-					Toast.makeText(v.getContext(), "got item 3", 10000).show();
+					Intent intent = new Intent(Main.this, PainlessJSONParsing.class);
+					startActivity(intent);
 				}
 			}
 		});

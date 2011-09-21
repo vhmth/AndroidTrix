@@ -43,7 +43,7 @@ public class TextViewIndexOnClick extends Activity {
 		});
         
         //display the code in the Activity
-        TextView code = (TextView)findViewById(R.id.code);
+        TextView code = (TextView)findViewById(R.id.tvindonclickcode);
         code.setText(
         	"CODE (manip is a TextView):\n"+
         	"------------------------------------\n"+
