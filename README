@@ -1,0 +1,18 @@
+Ever since I started Android development I've found some code very useful over and over again. It astounds me that some of this stuff isn't included in the standard Android libraries (such as onClick Index listeners on a TextView).
+
+SYNOPSIS:
+--------
+
+AndroidTrix is an Android application that demos and displays the source code of useful Android code snippets. It is completely free to use and mess with as you wish. Feel free to rip off any code directly and use it in your application (profit or not for profit) however you would like.
+
+If you simply wish to use the code, you may find it easier to simply access the Activity of the respective code snippet you desire directly. Each code snippet has its own Activity that's fired via an intent from the ListView main menu. These are the current code snippets/Android Trix:
+
+*Get the onClick Index on a TextView (finished)
+*Natural TextView-like Wrapping of Other Views (in progress)
+*Painless JSON Parsing (in progress)
+
+As you can see, I'm still working on this. If you have any Android code you've found useful and want to contribute to this library, feel free to email me at:
+
+vhiremath4@gmail.com
+
+Please include the code, what it does, as well as your name and email address and I'll add it and include your information in its own Activity file if I choose to use it in AndroidTrix.
